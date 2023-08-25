@@ -1,0 +1,98 @@
+.footer {
+    z-index: 2;
+    margin-right: 305px;
+    margin-bottom: 10px;
+    padding: 0 45px;
+    transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    position: relative;
+  }
+  
+  .inner .Row1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid;
+    padding: 20px 0;
+    border-bottom: 1px solid solid rgba(0, 0, 0, 0.1);
+  }
+  .Row1 strong {
+    font-size: 32px;
+    margin-bottom: 25px;
+    font-weight: 700;
+  }
+  .Row1 p {
+    color: #8e8e93;
+    font-size: 12px;
+    /* border-bottom: 1px solid solid rgba(0,0,0,.1); */
+  }
+  .Row2,
+  .Row3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid;
+    padding: 20px 0;
+    /* color: white; */
+    border-bottom: 1px solid solid rgba(0, 0, 0, 0.1);
+  }
+  .Row2 .fc {
+    margin-right: 25px;
+    background-color: #3b5998;
+    /* color: white; */
+  }
+  .Row2 .tw {
+    background-color: #00acee;
+  }
+  .Row2 button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    outline: none;
+    /* color: white; */
+  }
+  .Row3 a {
+    padding: 0 5px;
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--secondary-color);
+  }
+  .Row4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .Row4 .link {
+    width: 25%;
+    padding-top: 60px;
+  }
+  .Row4 .link ._b a {
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    color: var(--secondary-color);
+    font-size: 12px;
+  }
+  .Row4 strong {
+    position: absolute;
+  
+    left: 50%;
+    transform: translateX(-50%);
+    display: block;
+    font-size: 18px;
+    /* font-family: proximanova-semibold-webfont,Arial,sans-serif; */
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-weight: 700;
+  }
+  .copyr {
+    text-align: center;
+    border-top: 1px solid solid rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    padding: 20px 0;
+    text-align: center;
+    color: var(--primary-color);
+  }

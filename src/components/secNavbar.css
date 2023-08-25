@@ -1,0 +1,70 @@
+.lg-filter {
+  margin: 0 -45px;
+  width: auto;
+  padding: 11px 45px;
+  position: sticky;
+  top: 55px;
+
+  z-index: 100;
+  background: var(--primary-color);
+}
+
+.lg-filter ._a {
+  display: flex;
+  justify-content: space-between;
+}
+.lg-filter ._a .link {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  position: relative;
+  color: var(--secondary-color);
+  transition: all 0.2s;
+}
+.link small {
+  font-size: 18px;
+}
+.link::after {
+  content: "";
+
+  height: 2px;
+
+  width: 0;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+.link:hover::after {
+  background: var(--fift-color);
+  width: 100%;
+  animation: load 0.2s ease;
+}
+@keyframes load {
+  0% {
+    width: 0%;
+  }
+  50% {
+    width: 70%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+.selected small {
+  font-weight: bold;
+}
+.selected::after {
+  content: "";
+  background: var(--fift-color);
+
+  height: 2px;
+
+  width: 100%;
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+}
+.Recently {
+  margin-top: 50px;
+  position: relative;
+}

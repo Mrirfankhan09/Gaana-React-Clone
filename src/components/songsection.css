@@ -1,0 +1,119 @@
+/* next prev */
+.buttonstonext,
+.sectionbuttons {
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  top: 46%;
+  /* display: none; */
+}
+.buttonstonext button,
+.sectionbuttons button {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-radius: 50%;
+  background: #dde1e5;
+  padding: 5px;
+  cursor: pointer;
+}
+.sectionbuttons {
+  top: 45%;
+  width: 100%;
+}
+/* ul:hover .buttonstonext{
+display: block;
+} */
+
+.musiclist {
+  position: relative;
+}
+.row1,
+.row2,
+.row3,
+.row4,
+.row5,
+.row6,
+.row7,
+.row8,
+.row9,
+.row10,
+.row11,
+.row12,
+.row13,
+.row01,
+.row02 {
+  position: relative;
+  height: 204px;
+  width: 100%;
+  /* border: 2px solid red; */
+  overflow-x: scroll;
+  scroll-behavior: smooth;
+  display: flex;
+  /* flex-wrap: wrap; */
+  align-items: center;
+}
+.music-item {
+  /* position: absolute; */
+  /* list-style-type: none; */
+  margin-right: 20px;
+  cursor: pointer;
+}
+.music-item p {
+  color: var(--secondary-color);
+}
+.songsSec li {
+  list-style-type: none;
+}
+
+.row1 .music-item a,
+.row2 .music-item a,
+.row3 .music-item a,
+.row4 .music-item a,
+.row5 .music-item a,
+.row6 .music-item a,
+.row7 .music-item a,
+.row8 .music-item a,
+.row9 .music-item a,
+.row10 .music-item a,
+.row11 .music-item a,
+.row12 .music-item a,
+.row13 .music-item a,
+.row01 .music-item a,
+.row02 .music-item a {
+  padding: 5px;
+}
+.row1 .music-item a img,
+.row2 .music-item a img,
+.row3 .music-item a img,
+.row4 .music-item a img,
+.row5 .music-item a img,
+.row6 .music-item a img,
+.row7 .music-item a img,
+.row8 .music-item a img,
+.row9 .music-item a img,
+.row10 .music-item a img,
+.row11 .music-item a img,
+.row12 .music-item a img,
+.row13 .music-item a img,
+.row01 .music-item a img,
+.row02 .music-item a img {
+  border-radius: 13px;
+  width: 170px;
+}
+/* .featured .musiclist .music-item{
+    margin-top: 10px;
+} */
+.featured {
+  margin: 10px 0;
+}
+.featured .head {
+  margin: 10px 0;
+}
+
+.featured .musiclist .music-item a img {
+  border-radius: 50%;
+  width: 160px;
+  height: 160px;
+}

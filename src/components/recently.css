@@ -1,0 +1,100 @@
+.Recently {
+    margin-top: 50px;
+    position: relative;
+  }
+  
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .head a {
+    text-decoration: none;
+    color: var(--fift-color);
+  }
+  .head ._col h2 {
+    color: var(--secondary-color);
+  }
+  .card {
+    position: relative;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    height: 200px;
+    margin-top: 10px;
+  
+    /* border: 2px solid red; */
+  }
+  ::-webkit-scrollbar {
+    display: none;
+  }
+  .card .wrap-up {
+    width: 100%;
+    display: grid;
+  
+    grid-template-columns: repeat(100, minmax(calc(33% - 11px), 1fr));
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    grid-column-gap: 25px;
+    grid-row-gap: 20px;
+    padding: 0 10px;
+    margin-top: 10px;
+    position: absolute;
+    margin-right: 10px;
+  }
+  .wrap-up li {
+    background-color: var(--third-color);
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #000; */
+    border-radius: 2px;
+    padding: 8px 10px;
+    /* margin-right: 40px; */
+    /* color: #fff; */
+  }
+  
+  .wrap-up li img {
+    width: 48px;
+    height: 48px;
+  }
+  .wrap-up .song {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .wrap-up .song .song .text h2 {
+    font-size: 20px;
+  }
+  .wrap-up .song .text h4 {
+    color: var(--secondary-color);
+  }
+  .wrap-up .song .text small {
+    color: var(--secondary-color);
+  }
+  
+  /* next prev */
+  .buttonstonext,
+  .sectionbuttons {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    top: 46%;
+    /* display: none; */
+  }
+  .buttonstonext button,
+  .sectionbuttons button {
+    background: transparent;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background: #dde1e5;
+    padding: 5px;
+    cursor: pointer;
+  }
+  .sectionbuttons {
+    top: 45%;
+    width: 100%;
+  }

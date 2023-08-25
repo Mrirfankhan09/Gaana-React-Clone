@@ -1,0 +1,147 @@
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 30px;
+    background-color: var(--third-color);
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 200;
+  }
+  .navBar .left {
+    display: flex;
+    align-items: center;
+  
+    flex-basis: 42%;
+  }
+  .navBar .left .lt {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  .navBar .logo {
+    margin: 0 10px;
+  }
+  .navBar .logo img {
+    width: 103px;
+  }
+  
+  .navBar .left .Bar {
+    font-size: 22px;
+    color: var(--secondary-color);
+  }
+  .link i {
+    color: var(--secondary-color);
+  }
+  .navBar .left .rt {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  
+    margin: 0 15px;
+  }
+  
+  .navBar .left .rt .search-box {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  
+    width: 100%;
+    padding: 5px 22px;
+    border-radius: 18px;
+  
+    background-color: var(--primary-color);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .navBar .left .rt .search-box input {
+    padding: 6px 5px;
+    padding-left: 8px;
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+  }
+  
+  .navBar .right {
+    display: flex;
+  
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 38%;
+  }
+  
+  .btn {
+    border: 2px solid #e72c30;
+    color: var(--fift-color);
+    background: transparent;
+    padding: 9px 20px 7px;
+    border-radius: 20px;
+    font-size: 12px;
+    line-height: 10px;
+    position: relative;
+  }
+  .badge {
+    position: absolute;
+    background-color: var(--fift-color);
+    color: #fff;
+    font-size: 7px;
+    top: -7px;
+    right: 3px;
+    padding: 3px 5px;
+    border-radius: 20px;
+  }
+  .dropdown {
+    position: relative;
+    /* display: none; */
+  }
+  
+  .dropdown button {
+    background-color: transparent;
+    border: none;
+  }
+  .dropdown .lang {
+    position: absolute;
+  
+    background-color: var(--sixth-color);
+    width: 378px;
+    height: auto;
+    left: -130px;
+    top: 45px;
+    background: var(--primary-color);
+    box-shadow: rgba(0, 0, 0, 0.17) 0px 2px 32px 0px;
+    border-radius: 6px;
+    padding: 20px;
+    display: block;
+  }
+  .dropdown .lang h3 {
+    font-size: 22px;
+    margin-bottom: 13px;
+    padding: 4px 6px;
+  }
+  .dropdown .lang ul {
+    list-style-type: none;
+    background-color: var(--primary-color);
+    height: 230px;
+    overflow: auto;
+    color: rgb(142, 142, 147);
+  }
+  
+  .dropdown .lang ul li {
+    display: flex;
+    justify-content: space-between;
+    font-size: 23px;
+    padding: 4px 8px;
+  }
+  
+  .dropdown .lang ul li box {
+    color: rgb(142, 142, 147);
+  }
+  
+  .loginSignup {
+    color: var(--seven-color);
+  }
+  .loginSignup a {
+    text-decoration: none;
+    color: var(--seven-color);
+  }
